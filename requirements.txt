@@ -2,3 +2,5 @@ pyodbc
 pandas
 streamlit
 plotly
+unixodbc
+Pillow
