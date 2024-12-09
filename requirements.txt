@@ -1,3 +1,4 @@
 pyodbc
 pandas
 streamlit
+plotly
