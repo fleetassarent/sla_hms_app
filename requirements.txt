@@ -2,4 +2,3 @@ pyodbc
 pandas
 streamlit
 plotly
-unixodbc
