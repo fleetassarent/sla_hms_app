@@ -124,7 +124,7 @@ else:
                 st.markdown(html_title, unsafe_allow_html=True)
 
             with col3:
-                if st.button("🔄 Refresh Data", key="global_refresh"):
+                if st.button("🔄 Refresh Data", key="unique_refresh_button"):
                     self.refresh_data()    
         def refresh_data(self):
             """
@@ -147,7 +147,7 @@ else:
             st.rerun()
 
             # Menampilkan tombol logout
-        if st.button("Logout"):
+        if st.button("Logout", key="unique_logout_button"):
             st.session_state.logged_in = False
             if "role" in st.session_state:
                 del st.session_state["role"]  # Hapus role jika ada
