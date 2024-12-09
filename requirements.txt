@@ -1,4 +1,6 @@
+streamlit
 pyodbc
 pandas
-streamlit
 plotly
+Pillow
+requests
